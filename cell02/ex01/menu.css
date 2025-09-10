@@ -1,0 +1,56 @@
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  background-color: #fdf6e3;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  height: 100vh;
+}
+
+.sandwich-menu {
+  width: 250px;
+  position: relative;
+}
+
+.sandwich-menu input {
+  display: none;
+}
+
+.sandwich-title {
+  background: #ffcc66;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 2px solid #ffb84d;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.ingredients {
+  position:absolute;
+  max-height: 0;
+  overflow: hidden;
+  width: 100%;
+  max-height: 0;
+  transition: max-height 0.4s ease;
+  
+}
+
+.sandwich-menu input:checked ~ .ingredients {
+  max-height: 500px; 
+}
+
+.ingredients ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredients li {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ffd699;
+  background: #fff2cc;
+}
+
