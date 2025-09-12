@@ -1,0 +1,35 @@
+/* General */
+html { scroll-behavior: smooth; }
+section { padding: 100px 0; }
+body { background-color: hsl(148, 50%, 13%)}
+
+/* Navbar */
+.custom-navbar { background-color: hsl(55, 100%, 88%); }
+.custom-navbar .nav-link { color: rgb(204, 135, 174); margin-left: 20px; transition: color 0.3s; }
+.custom-navbar .nav-link.active { color: hsl(148, 50%, 13%); font-weight: bold; }
+.custom-navbar .nav-link:hover { color: hsl(0, 1%, 80%); }
+.custom-navbar .navbar-brand { color: hsl(148, 50%, 13%); }
+
+/* About */
+.text-pink { color: pink; font-weight: bold; }
+.about-title { margin: 0; font-size: 8vw; }
+.about-desc { margin-top: 20px; }
+
+/* Showcase */
+.custom-title { color: hsl(148, 50%, 13%); font-weight: bold; }
+.custom-desc { color: hsl(148, 50%, 13%); }
+.fixed-img { max-height: 150px; width: auto; object-fit: contain; display: block; margin: 0 auto; }
+.showcase {
+    background-color: #edbccb;
+}
+/* Contact */
+#contact { background-color: hsl(148, 50%, 13%); color: white; padding: 100px 0; }
+.btn-theme {
+  background-color: hsl(350, 100%, 88%);
+  color: hsl(148, 50%, 13%);
+  transition: background-color 0.3s;
+}
+.btn-theme:hover {
+  background-color: hsl(350, 52%, 79%);
+  color: hsl(148, 50%, 13%);
+}
