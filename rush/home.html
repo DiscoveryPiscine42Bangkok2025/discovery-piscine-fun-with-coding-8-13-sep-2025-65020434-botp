@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background:#fffac0;                                                   /*พื้นหลัง*/
+      font-family: Arial, sans-serif;
+    }
+    
+    .box {  
+      
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      /* box-shadow: 0 4px 12px rgba(0,0,0,0.2);  */
+    }
+    
+    h1 {    /*ข้อความหัวเรื่อง*/
+      margin-bottom: 20px;
+      font-size: 150px;
+      color: #000000;
+    }
+
+    a.btn { /*ลิ้งไปหน้าอื่น จัดหน้า*/
+      display: inline-block;
+      padding: 50px 20px;
+      margin: 20px;
+      border-radius: 3px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn1 { background: #f5b2cb; color: white; } /*ปุ่มแรก*/
+    .btn1:hover { background: #e0a3b9; }    
+    .btn2 { background: #82b18d; color: white; } /*ปุ่มสอง*/
+    .btn2:hover { background: #6b9274; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Welcome to Our Portfolio</h1>
+    <!-- <p>Please choose which portfolio you want to see</p>    /*ข้อความย่อย*/ -->
+    <a href="port1.html" class="btn btn1">Portfolio 1</a>
+    <a href="port2.html" class="btn btn2">Portfolio 2</a>
+  </div>
+</body>
+</html>
